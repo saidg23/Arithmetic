@@ -4,13 +4,14 @@ using namespace std;
 
 int main()
 {
-    int x;
-    int y;
+    int dividen;
+    int divisor;
 
     cout << "choose the dividend: ";
-    cin >> x;
+    cin >> dividen;
     cout << "choose the divisor: ";
-    cin >> y;
-    cout << endl << x / y << " remainder " << x % y;
+    cin >> divisor;
+    cout << endl << dividen / divisor << " remainder " << dividen % divisor;
+
     return 0;
 }
