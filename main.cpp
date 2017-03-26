@@ -1,17 +1,21 @@
-#include <iostream>
-
 using namespace std;
+
+int getInput()
+{
+    int in;
+    cout << "enter a number: ";
+    cin >> in;
+    return in;
+}
 
 int main()
 {
-    int dividen;
-    int divisor;
+    int dividen(getInput());
+    cout << "divide by" << endl;
+    int divisor(getInput());
 
-    cout << "choose the dividend: ";
-    cin >> dividen;
-    cout << "choose the divisor: ";
-    cin >> divisor;
     cout << endl << dividen / divisor << " remainder " << dividen % divisor;
 
     return 0;
 }
+
