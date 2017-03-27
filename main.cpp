@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//gets user input for use in divide()
 int getInput()
 {
     int in;
@@ -10,6 +11,9 @@ int getInput()
     return in;
 }
 
+//this divides and prints the results(to be added)
+
+//where the magic happens
 int main()
 {
     int dividen(getInput());
