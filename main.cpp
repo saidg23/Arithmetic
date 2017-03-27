@@ -11,14 +11,19 @@ int getInput()
     return in;
 }
 
-//where the magic happens
+//divides and prints results
+void divide(int x, int y)
+{
+    cout << endl << x / y << " remainder " << x % y;
+}
+
+//this is where the magic happens
 int main()
 {
     int dividen(getInput());
     cout << "divided by" << endl;
     int divisor(getInput());
-
-    cout << endl << dividen / divisor << " remainder " << dividen % divisor;
+    divide(dividen, divisor);
 
     return 0;
 }
