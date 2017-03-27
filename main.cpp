@@ -10,13 +10,17 @@ int getInput()
     return in;
 }
 
+void divide(int x, int y)
+{
+    cout << endl << x / y << " remainder " << x % y;
+}
+
 int main()
 {
     int dividen(getInput());
     cout << "divided by" << endl;
     int divisor(getInput());
-
-    cout << endl << dividen / divisor << " remainder " << dividen % divisor;
+    divide(dividen, divisor);
 
     return 0;
 }
