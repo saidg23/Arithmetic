@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//gets user input for use in the formula
 int getInput()
 {
     int in;
@@ -10,6 +11,7 @@ int getInput()
     return in;
 }
 
+//where the magic happens
 int main()
 {
     int dividen(getInput());
