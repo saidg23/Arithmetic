@@ -13,7 +13,7 @@ int getInput()
 int main()
 {
     int dividen(getInput());
-    cout << "divide by" << endl;
+    cout << "divided by" << endl;
     int divisor(getInput());
 
     cout << endl << dividen / divisor << " remainder " << dividen % divisor;
